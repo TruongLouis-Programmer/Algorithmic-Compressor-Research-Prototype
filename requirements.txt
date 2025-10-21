@@ -1,0 +1,16 @@
+# Core
+streamlit
+numpy
+matplotlib
+scipy
+scikit-learn
+
+# PyTorch (CPU/GPU): recommended to install with the official instructions for your platform.
+# Keep this here as a placeholder; see note below for GPU wheels.
+torch
+
+# Optional / performance
+zstandard      # optional: zstd compression support (if unavailable code falls back to zlib)
+
+# Utilities
+json5          # sometimes handy for robust json handling (optional)
