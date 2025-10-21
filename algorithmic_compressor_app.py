@@ -25,6 +25,10 @@ from scipy.optimize import curve_fit
 
 st.set_page_config(layout="wide")
 st.title("Algorithmic Compressor — Research Prototype")
+st.markdown(
+    '<p style="font-size:14px; color:gray;">Source code: <a href="https://github.com/TruongLouis-Programmer/Algorithmic-Compressor-Research-Prototype/blob/main/algorithmic_compressor_app.py" target="_blank">GitHub</a></p>',
+    unsafe_allow_html=True
+)
 
 # ----------------------
 # Utility functions
